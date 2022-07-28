@@ -1,4 +1,6 @@
-# showcase
+head:
+  title: BIDS Workshop
+
 showcase:
   enable: true
 
