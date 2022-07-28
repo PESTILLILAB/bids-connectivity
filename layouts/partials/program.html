@@ -1,0 +1,40 @@
+{{ if .Site.Data.homepage.program.enable }}
+<section class="section rad-animation-group" id="program">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-12 my-auto my-auto">
+        <h2>{{ .Site.Data.homepage.program.title }}</h2>
+        <table class="schedule">
+          {{ range $schedule := .Site.Data.homepage.program.schedule }}
+          <thead>
+            <tr>
+              <th class="schedule">
+                {{ $schedule.date }}
+              </th>
+              <th class="title" colspan="2">
+                {{ $schedule.title }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $item := $schedule.items }}
+            <tr>
+              <td class="time">{{ $item.time }}</td>
+              <td class="title">
+                <p>{{ $item.title }}</p>
+                <p>{{ $item.description }}</p>
+              </td>
+              <td class="speakers">
+                {{ range $author := $item.speakers }}
+                  <span>{{ $author.name }}</span>
+                {{ end }}
+              </td>
+            </tr>
+            {{ end }}
+          {{ end }}
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

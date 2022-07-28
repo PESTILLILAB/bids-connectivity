@@ -1,0 +1,137 @@
+# showcase
+showcase:
+  enable: true
+
+  title: BIDS Workshop
+  subtitle: Working together towards a better BIDS.
+  description: September 25th, at the University of Texas at Austin
+  image:
+    x: img/showcase/showcase.png
+    _2x: img/showcase/showcase@2x.png
+  imageMobile:
+    x: img/showcase/showcase-mobile.jpg
+
+  button:
+    icon: icon-mail-fill
+    btnText: Contact
+    URL: https://radity.com/en/contact/
+
+  socialLinks:
+    - icon: profile-fill
+      URL: https://neurostars.org/tag/bids
+
+    - icon: github-line
+      URL: https://github.com/bids-standard
+
+    - icon: twitter-line
+      URL: https://twitter.com/BIDSstandard
+
+
+overview:
+  enable: true
+
+  title: Overview
+  content: |
+    Neuroimaging experiments result in complicated data that can be arranged in many
+    different ways. So far there is no consensus how to organize and share data obtained
+    in neuroimaging experiments. Even two researchers working in the same lab can opt
+    to arrange their data in a different way. Lack of consensus (or a standard) leads
+    to misunderstandings and time wasted on rearranging data or rewriting scripts expecting
+    certain structure. With the Brain Imaging Data Structure (BIDS), we describe a simple
+    and easy to adopt way of organizing neuroimaging and behavioral data.
+  button:
+    icon: icon-smile-fill
+    btnText: Read more
+    URL: https://bids.neuroimaging.io/
+  image:
+    x: img/overview/bids-brain.png
+    _2x: img/overview/bids-brain@2x.png
+
+
+program:
+  enable: true
+
+  title: Program
+  schedule:
+
+    - title: Day 1
+      date: Sep 25
+      items:
+        - title: Registration
+          time: 9:00 - 10:00
+          description: Registration and welcome speech
+        - title: Keynote
+          time: 10:00 - 11:00
+          description: Keynote about BIDS
+          speakers:
+            - name: Franco Pestilli
+              image:
+                x: img/speakers/franco-pestilli.png
+                _2x: img/speakers/franco-pestilli.png
+            - name: Franco Pestilli
+              image:
+                x: img/speakers/franco-pestilli.png
+                _2x: img/speakers/franco-pestilli.png
+
+    - title: Day 2
+      date: Sep 26
+      items:
+        - title: Keynote
+          time: 10:00 - 11:00
+          description: Keynote about the community
+          speakers:
+            - name: Franco Pestilli
+              image:
+                x: img/speakers/franco-pestilli.png
+                _2x: img/speakers/franco-pestilli.png
+        - title: Hacking
+          time: 11:00 - 12:00
+          description: Developing BIDS BEPs
+        - title: Lunch
+          time: 12:00 - 13:00
+
+
+information:
+  enable: true
+
+  title: Information
+  content: |
+    ACNN does not provide accommodations for attendees of the Annual Meeting.
+    If you are seeking a hotel within walking distance of the venue, we recommend checking out the Moxy Hotel Austin.
+
+
+registration:
+  enable: true
+
+  title: Registration
+  content: |
+    Registration is required to attend the workshop. You can register for
+    the workshop using this form. The deadline for registration is September
+    1st, 2022. We request small fees to register for the workshop
+    (Students $25, Postdocs $35, Faculty $45, Industry and Others $55).
+    The fees are used to support food for breakfast, lunch and coffee breaks.
+    Registration fees will be paid on site, on the first day of the workshop.
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: Registration
+    URL: https://drive.google.com/
+
+
+contact:
+  enable: true
+  title: "Contact"
+  content: |
+    Should you be selected to present in-person but not be able to do so, due
+    to unforeseen circumstances, please contact our coordinator Sandra Hanekamp
+    via sandrahanekamp@utexas.edu.
+  
+  phone:
+    title: "Phone Number"
+    number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:pestilli@utexas.edu">pestilli@utexas.edu</a>'
+  address:
+    title: "Address"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"

@@ -1,0 +1,14 @@
+{{ if .Site.Data.homepage.information.enable }}
+<section class="section rad-animation-group" id="information">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-12 my-auto my-auto">
+        <h2>{{ .Site.Data.homepage.information.title }}</h2>
+        <p class="lead">
+          {{ .Site.Data.homepage.information.content | safeHTML }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

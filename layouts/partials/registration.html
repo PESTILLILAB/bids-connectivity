@@ -1,0 +1,22 @@
+{{ if .Site.Data.homepage.registration.enable }}
+<section class="section rad-animation-group" id="registration">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-12 my-auto my-auto">
+        <h2>{{ .Site.Data.homepage.registration.title }}</h2>
+        <p class="lead">
+          {{ .Site.Data.homepage.registration.content | safeHTML }}
+        </p>
+        <a
+          href="{{ .Site.Data.homepage.registration.button.URL | absURL }}"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="{{ .Site.Data.homepage.registration.button.icon }}"></i>
+          {{ .Site.Data.homepage.registration.button.btnText }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
