@@ -27,7 +27,7 @@ body .section:last-of-type {
     url(../img/contact-bg.png);
 
   background-repeat: repeat, repeat-x;
-  background-position: bottom left, bottom left;
+  background-position: top left, bottom left;
 }
 
 footer.footer {
