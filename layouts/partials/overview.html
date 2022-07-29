@@ -1,17 +1,17 @@
 {{ if .Site.Data.homepage.overview.enable }}
 <section class="section rad-animation-group" id="overview">
-  <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="overview__profile-picture col-12 col-md-6">
+  <div class="container rad-fade-down mt-5 mt-md-5">
+    <div class="row">
+      <div class="d-none d-md-block col-md-6">
         <img
-          class="lozad img-responsive image-left-overflow"
+          class="lozad img-fluid image-left-overflow"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .Site.Data.homepage.overview.image.x | absURL }}"
           data-srcset="{{ .Site.Data.homepage.overview.image.x | absURL }} 1x, {{ .Site.Data.homepage.overview.image._2x | absURL }} 2x"
           alt="Profile Picture"
         />
       </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
+      <div class="col-12 col-md-6 my-auto pb-4">
         <h2>{{ .Site.Data.homepage.overview.title }}</h2>
         <p class="lead">
           {{ .Site.Data.homepage.overview.content | safeHTML }}
@@ -26,6 +26,14 @@
         </a>
       </div>
     </div>
+  </div>
+  <div class="d-block d-md-none">
+    <img
+      class="lozad img-fluid"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.overview.image.mobile | absURL }}"
+      alt="{{ .Site.Data.homepage.overview.image.alt }}"
+    />
   </div>
 </section>
 {{ end }}

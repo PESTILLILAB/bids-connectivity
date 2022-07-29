@@ -8,10 +8,9 @@ showcase:
   subtitle: Working together towards a better BIDS.
   description: September 25th, at the University of Texas at Austin
   image:
-    x: img/showcase/showcase.png
-    _2x: img/showcase/showcase@2x.png
-  imageMobile:
-    x: img/showcase/showcase-mobile.jpg
+    x: img/showcase/people@2x.png
+    _2x: img/showcase/people@2x.png
+    mobile: img/showcase/people-mobile.png
 
   button:
     icon: icon-mail-fill
@@ -48,6 +47,7 @@ overview:
   image:
     x: img/overview/bids-brain.png
     _2x: img/overview/bids-brain@2x.png
+    mobile: img/overview/bids-brain-mobile.png
 
 
 program:

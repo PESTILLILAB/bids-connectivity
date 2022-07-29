@@ -1,23 +1,12 @@
 {{ if .Site.Data.homepage.showcase.enable }}
-<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-  <div class="rad-showcase__bg">
-    <img
-      class="lozad img-responsive"
-      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
-      data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
-      alt="{{ .Site.Data.homepage.showcase.image.alt }}"
-    />
-  </div>
-  <div class="container">
+<section class="section rad-showcase rad-animation-group rad-fade-down">
+  <div class="container mt-5 mt-md-5">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 my-auto">
         <h1 class="display-1">
           {{ .Site.Data.homepage.showcase.title }}
           <br />
-          <span
-            >{{ .Site.Data.homepage.showcase.subtitle }}</span
-          >
+          <span>{{ .Site.Data.homepage.showcase.subtitle }}</span>
         </h1>
         <p class="lead">
           {{ .Site.Data.homepage.showcase.description | safeHTML }}
@@ -29,24 +18,31 @@
           <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
           {{ .Site.Data.homepage.showcase.button.btnText }}
         </a>
+        <p class="my-4">
+          {{ range .Site.Data.homepage.showcase.socialLinks }}
+          <a href="{{ .URL | absURL }}" target="_blank"
+            ><i class="icon-{{ .icon }}"></i
+          ></a>
+          {{ end }}
+        </p>
       </div>
-    </div>
-    <div class="row platform-links">
-      <div class="col-12">
-        {{ range .Site.Data.homepage.showcase.socialLinks }}
-        <a href="{{ .URL | absURL }}" target="_blank"
-          ><i class="icon-{{ .icon }}"></i
-        ></a>
-        {{ end }}
+      <div class="d-none d-md-block col-md-4 col-lg-5 col-xl-6 my-auto">
+        <img
+          class="lozad img-fluid image-right-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
+          data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
+          alt="{{ .Site.Data.homepage.showcase.image.alt }}"
+        />
       </div>
     </div>
   </div>
-  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+  <div class="d-block d-md-none">
     <img
-      class="lozad img-responsive"
+      class="lozad img-fluid"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.showcase.imageMobile.x | absURL }}"
-      alt="{{ .Site.Data.homepage.showcase.imageMobile.alt }}"
+      data-src="{{ .Site.Data.homepage.showcase.image.mobile | absURL }}"
+      alt="{{ .Site.Data.homepage.showcase.image.alt }}"
     />
   </div>
 </section>
