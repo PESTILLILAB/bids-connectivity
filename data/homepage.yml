@@ -6,7 +6,7 @@ showcase:
 
   title: BIDS Workshop
   subtitle: Working together towards a better BIDS.
-  description: September 25th, at the University of Texas at Austin
+  description: September 12th - 14th, at the University of Texas at Austin
   image:
     x: img/showcase/people@2x.png
     _2x: img/showcase/people@2x.png
@@ -57,41 +57,148 @@ program:
   schedule:
 
     - title: Day 1
-      date: Sep 25
+      date: Sep 12
       items:
-        - title: Registration
-          time: 9:00 - 10:00
-          description: Registration and welcome speech
-        - title: Keynote
-          time: 10:00 - 11:00
-          description: Keynote about BIDS
-          speakers:
+        - title: Breakfast
+          time: 8:00 - 9:00
+        - title: Welcome to UT Austin & meeting structure
+          time: 9:00 - 9:15
+          description: Workshop introduction & overview
+          speakers: 
             - name: Franco Pestilli
               image:
-                x: img/speakers/franco-pestilli.png
-                _2x: img/speakers/franco-pestilli.png
-            - name: Franco Pestilli
+                  x: img/speakers/franco-pestilli.png
+                _2x: img/speakers/franco-pestilli.png       
+            - name: Peer Herholz
               image:
-                x: img/speakers/franco-pestilli.png
-                _2x: img/speakers/franco-pestilli.png
+                  x: img/speakers/peer-herholz.png
+                _2x: img/speakers/peer-herholz.png                          
+        - title: Breakout session I - working groups
+          time: 09:15 - 10:35
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Coffee break
+          time: 10:35 - 10:45
+          description: Short break to get some coffee & refreshments (provided).
+        - title: Breakout session II - working groups
+          time: 10:45 - 12
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Progress report I - everyone
+          time: 12 - 12:30
+          description: Working groups will update everyone on their respective progress, questions and issues.
+        - title: Lunch
+          time: 12:30 - 1:45
+          description: Lunch break (provided).
+       - title: Breakout session III - working groups
+          time: 1:45 - 3
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Coffee break
+          time: 3 - 3:10
+          description: Short break to get some coffee & refreshments (provided).
+        - title: Breakout session IV - working groups
+          time: 3:10 - 4:30
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Progress report II - everyone
+          time: 4:30 - 5          
+          description: Working groups will update everyone on their respective progress, questions and issues.
+        - title: Social hour
+          time: 6 - 8
+          description: Social get together at     (at own expense).
 
     - title: Day 2
-      date: Sep 26
+      date: Sep 13
       items:
-        - title: Keynote
-          time: 10:00 - 11:00
-          description: Keynote about the community
-          speakers:
+        - title: Breakfast
+          time: 8:00 - 9:00
+        - title: Day 2 welcome & Day 1 summary/recap
+          time: 9:00 - 9:15
+          description: Overview of workshop day 2 & summary/recap of day 1.
+          speakers: 
             - name: Franco Pestilli
               image:
-                x: img/speakers/franco-pestilli.png
-                _2x: img/speakers/franco-pestilli.png
-        - title: Hacking
-          time: 11:00 - 12:00
-          description: Developing BIDS BEPs
+                  x: img/speakers/franco-pestilli.png
+                _2x: img/speakers/franco-pestilli.png       
+            - name: Peer Herholz
+              image:
+                  x: img/speakers/peer-herholz.png
+                _2x: img/speakers/peer-herholz.png                          
+        - title: Breakout session V - working groups
+          time: 09:15 - 10:35
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Coffee break
+          time: 10:35 - 10:45
+          description: Short break to get some coffee & refreshments (provided).
+        - title: Breakout session VI - working groups
+          time: 10:45 - 12
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Progress report III - everyone
+          time: 12 - 12:30
+          description: Working groups will update everyone on their respective progress, questions and issues.
         - title: Lunch
-          time: 12:00 - 13:00
+          time: 12:30 - 1:45
+          description: Lunch break (provided).
+       - title: Breakout session VII - working groups
+          time: 1:45 - 3
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Coffee break
+          time: 3 - 3:10
+          description: Short break to get some coffee & refreshments (provided).
+        - title: Breakout session VIII - working groups
+          time: 3:10 - 4:30
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Progress report III - everyone
+          time: 4:30 - 5          
+          description: Working groups will update everyone on their respective progress, questions and issues.
+        - title: Group dinner
+          time: 6 - 8
+          description: Social get together at     (sponsored).
 
+    - title: Day 3
+      date: Sep 14
+      items:
+        - title: Breakfast
+          time: 8:00 - 9:00
+        - title: Day 2 welcome & Day 1 summary/recap
+          time: 9:00 - 9:15
+          description: Overview of workshop day 2 & summary/recap of day 1.
+          speakers: 
+            - name: Franco Pestilli
+              image:
+                  x: img/speakers/franco-pestilli.png
+                _2x: img/speakers/franco-pestilli.png       
+            - name: Peer Herholz
+              image:
+                  x: img/speakers/peer-herholz.png
+                _2x: img/speakers/peer-herholz.png                          
+        - title: Breakout session V - working groups
+          time: 09:15 - 10:35
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Coffee break
+          time: 10:35 - 10:45
+          description: Short break to get some coffee & refreshments (provided).
+        - title: Breakout session VI - working groups
+          time: 10:45 - 12
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Progress report III - everyone
+          time: 12 - 12:30
+          description: Working groups will update everyone on their respective progress, questions and issues.
+        - title: Lunch
+          time: 12:30 - 1:45
+          description: Lunch break (provided).
+       - title: Breakout session VII - working groups
+          time: 1:45 - 3
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Coffee break
+          time: 3 - 3:10
+          description: Short break to get some coffee & refreshments (provided).
+        - title: Breakout session VIII - working groups
+          time: 3:10 - 4:30
+          description: Working groups will work on their respective BEPs & tasks. 
+        - title: Progress report III - everyone
+          time: 4:30 - 5          
+          description: Working groups will update everyone on their respective progress, questions and issues.
+        - title: Social hour
+          time: 6 - 8
+          description: Social get together at (at own expense).
 
 information:
   enable: true
