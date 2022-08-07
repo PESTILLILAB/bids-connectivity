@@ -65,14 +65,8 @@ program:
           time: 9:00 - 9:15
           description: Workshop introduction & overview
           speakers: 
-            - name: Franco Pestilli
-              image:
-                  x: img/speakers/franco-pestilli.png
-                _2x: img/speakers/franco-pestilli.png       
-            - name: Peer Herholz
-              image:
-                  x: img/speakers/peer-herholz.png
-                _2x: img/speakers/peer-herholz.png                          
+            - name: Franco Pestilli   
+            - name: Peer Herholz                    
         - title: Breakout session I - working groups
           time: 09:15 - 10:35
           description: Working groups will work on their respective BEPs & tasks. 
@@ -88,7 +82,7 @@ program:
         - title: Lunch
           time: 12:30 - 1:45
           description: Lunch break (provided).
-       - title: Breakout session III - working groups
+        - title: Breakout session III - working groups
           time: 1:45 - 3
           description: Working groups will work on their respective BEPs & tasks. 
         - title: Coffee break
@@ -113,14 +107,8 @@ program:
           time: 9:00 - 9:15
           description: Overview of workshop day 2 & summary/recap of day 1.
           speakers: 
-            - name: Franco Pestilli
-              image:
-                  x: img/speakers/franco-pestilli.png
-                _2x: img/speakers/franco-pestilli.png       
-            - name: Peer Herholz
-              image:
-                  x: img/speakers/peer-herholz.png
-                _2x: img/speakers/peer-herholz.png                          
+            - name: Franco Pestilli    
+            - name: Peer Herholz                
         - title: Breakout session V - working groups
           time: 09:15 - 10:35
           description: Working groups will work on their respective BEPs & tasks. 
@@ -136,7 +124,7 @@ program:
         - title: Lunch
           time: 12:30 - 1:45
           description: Lunch break (provided).
-       - title: Breakout session VII - working groups
+        - title: Breakout session VII - working groups
           time: 1:45 - 3
           description: Working groups will work on their respective BEPs & tasks. 
         - title: Coffee break
@@ -161,14 +149,8 @@ program:
           time: 9:00 - 9:15
           description: Overview of workshop day 2 & summary/recap of day 1.
           speakers: 
-            - name: Franco Pestilli
-              image:
-                  x: img/speakers/franco-pestilli.png
-                _2x: img/speakers/franco-pestilli.png       
-            - name: Peer Herholz
-              image:
-                  x: img/speakers/peer-herholz.png
-                _2x: img/speakers/peer-herholz.png                          
+            - name: Franco Pestilli 
+            - name: Peer Herholz                     
         - title: Breakout session V - working groups
           time: 09:15 - 10:35
           description: Working groups will work on their respective BEPs & tasks. 
@@ -184,7 +166,7 @@ program:
         - title: Lunch
           time: 12:30 - 1:45
           description: Lunch break (provided).
-       - title: Breakout session VII - working groups
+        - title: Breakout session VII - working groups
           time: 1:45 - 3
           description: Working groups will work on their respective BEPs & tasks. 
         - title: Coffee break
