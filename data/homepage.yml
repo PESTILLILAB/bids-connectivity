@@ -1,11 +1,11 @@
 head:
-  title: BIDS Workshop
+  title: BIDS Connectivity Workshop
 
 showcase:
   enable: true
 
-  title: BIDS Workshop
-  subtitle: Working together towards a better BIDS.
+  title: BIDS Connectivity Workshop
+  subtitle: Developing a practical standard to report brain connectivity experiments.
   description: September 12th - 14th, at the University of Texas at Austin
   image:
     x: img/showcase/people@2x.png
@@ -40,6 +40,7 @@ overview:
     to misunderstandings and time wasted on rearranging data or rewriting scripts expecting
     certain structure. With the Brain Imaging Data Structure (BIDS), we describe a simple
     and easy to adopt way of organizing neuroimaging and behavioral data.
+   
   button:
     icon: icon-smile-fill
     btnText: Read more
