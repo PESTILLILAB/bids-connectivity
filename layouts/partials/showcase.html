@@ -5,11 +5,10 @@
       <div class="col-12 col-sm-12 col-md-6 my-auto">
         <h1 class="display-1">
           {{ .Site.Data.homepage.showcase.title }}
-          <br />
-          <span>{{ .Site.Data.homepage.showcase.subtitle }}</span>
+          <span>{{ .Site.Data.homepage.showcase.subtitle | markdownify }}</span>
         </h1>
         <p class="lead">
-          {{ .Site.Data.homepage.showcase.description | safeHTML }}
+          {{ .Site.Data.homepage.showcase.description | markdownify }}
         </p>
         <a
           href="{{ .Site.Data.homepage.showcase.button.URL | absURL }}"

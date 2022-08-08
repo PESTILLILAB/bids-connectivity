@@ -3,9 +3,9 @@
   <div class="container rad-fade-down">
     <div class="row d-flex flex-column-reverse flex-md-row">
       <div class="col-12 col-md-12 my-auto my-auto">
-        <h2>{{ .Site.Data.homepage.registration.title }}</h2>
+        <h2>{{ .Site.Data.homepage.registration.title | markdownify }}</h2>
         <p class="lead">
-          {{ .Site.Data.homepage.registration.content | safeHTML }}
+          {{ .Site.Data.homepage.registration.content | markdownify }}
         </p>
         <a
           href="{{ .Site.Data.homepage.registration.button.URL | absURL }}"

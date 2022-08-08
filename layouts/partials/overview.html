@@ -12,9 +12,9 @@
         />
       </div>
       <div class="col-12 col-md-6 my-auto pb-4">
-        <h2>{{ .Site.Data.homepage.overview.title }}</h2>
+        <h2>{{ .Site.Data.homepage.overview.title | markdownify }}</h2>
         <p class="lead">
-          {{ .Site.Data.homepage.overview.content | safeHTML }}
+          {{ .Site.Data.homepage.overview.content | markdownify }}
         </p>
         <a
           href="{{ .Site.Data.homepage.overview.button.URL | absURL }}"

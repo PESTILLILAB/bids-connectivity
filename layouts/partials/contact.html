@@ -6,16 +6,16 @@
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
                   <p class="lead">
-                    {{ .Site.Data.homepage.contact.content | safeHTML }}
+                    {{ .Site.Data.homepage.contact.content | markdownify }}
                   </p>
                 </div>
                 <div class="col-12 col-lg-5 contact__info">
-                    <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.phone.number }}</span>
-                    <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</span>
-                    <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
+                    {{ if .Site.Data.homepage.contact.phone.title }}<h4>{{ .Site.Data.homepage.contact.phone.title | markdownify }}</h4>{{ end }}
+                    {{ if .Site.Data.homepage.contact.phone.number }}<span>{{ .Site.Data.homepage.contact.phone.number | markdownify }}</span>{{ end }}
+                    {{ if .Site.Data.homepage.contact.email.title }}<h4>{{ .Site.Data.homepage.contact.email.title | markdownify }}</h4>{{ end }}
+                    {{ if .Site.Data.homepage.contact.email.email }}<span>{{ .Site.Data.homepage.contact.email.email | markdownify }}</span>{{ end }}
+                    {{ if .Site.Data.homepage.contact.address.title }}<h4>{{ .Site.Data.homepage.contact.address.title | markdownify }}</h4>{{ end }}
+                    {{ if .Site.Data.homepage.contact.address.address }}<span>{{ .Site.Data.homepage.contact.address.address | markdownify }}</span>{{ end }}
                 </div>
             </div>
         </div>

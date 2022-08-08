@@ -33,39 +33,38 @@ overview:
 
   title: Overview
   content: |
-   The Brain Imaging Data Structure (BIDS) is a BRAIN initiative (R24 MH114705) community-driven standard
-   meant to maximize neuroimaging data sharing, and facilitate analysis tool development. We propose to 
-   extend the standard to encompass derivatives resulting from experiments related to both functional as 
-   well as structural magnetic resonance imaging data that describe macroscopic brain connectivity estimates. 
-   The focus of this proposal is to advance BIDS to describe the entire experimental workflow—from minimally 
-   processed anatomical, functional and diffusion MRI data through connectivity matrices and tractometry features—in 
-   service of supporting BRAIN initiative studies of large-scale connectivity of human and nonhuman brains. 
-   BIDS was initially scoped to MRI data of the brain, but the standard has set up a solid infrastructure to 
-   steer the community and has been extended to cover a range of other modalities (PET, EEG, MEG, ECoG). Since 
-   its first announcement, BIDS has evolved to become an organized community with shared governance and a strong 
-   impact well beyond the U.S. BRAIN initiative. To date, 131 individuals among faculty, students, and postdocs 
-   contributed to the development of the standard and the article describing BIDS has been cited 277 times. 
-   
-   Current gaps exist in developing BIDS to effectively support the process of scientific results generation. This is because 
-   the standard does not yet describe brain features that can be extracted from MRI data and that are routinely used 
-   to perform statistical tests and complete scientific studies. These features comprise connectivity maps, structural 
-   and functional connections, major white matter tracts, diffusion signal models as well as white matter tractograms 
-   and tractometry. Sharing processed data and features in addition to raw and minimally-processed data is critical 
-   to accelerating scientific discovery. This is because substantial effort, software, and hardware instrumentation, 
-   and know-how are required to bring raw data to a usable state. One previous project (R24 MH114705) laid the foundations 
-   for the BIDS derivatives standard, ultimately leading to the existing Common Derivatives standard. However, the 
-   current BIDS derivative standard does not cover advanced data derivatives that describe brain connectivity experiments. 
-   
-   The aim of this project is to advance the BIDS standard beyond preprocessed data to describe data products generated 
-   from experiments and models fit after preprocessing. The project will deliver a community-developed standard describing 
-   brain connectivity experiments. The project is 
-    supported by the U.S. National Institutes of Health NIMH 
+    The Brain Imaging Data Structure (BIDS) is a BRAIN initiative (R24 MH114705) community-driven standard
+    meant to maximize neuroimaging data sharing, and facilitate analysis tool development. We propose to
+    extend the standard to encompass derivatives resulting from experiments related to both functional as
+    well as structural magnetic resonance imaging data that describe macroscopic brain connectivity estimates.
+    The focus of this proposal is to advance BIDS to describe the entire experimental workflow—from minimally
+    processed anatomical, functional and diffusion MRI data through connectivity matrices and tractometry features—in
+    service of supporting BRAIN initiative studies of large-scale connectivity of human and nonhuman brains.
+    BIDS was initially scoped to MRI data of the brain, but the standard has set up a solid infrastructure to
+    steer the community and has been extended to cover a range of other modalities (PET, EEG, MEG, ECoG). Since
+    its first announcement, BIDS has evolved to become an organized community with shared governance and a strong
+    impact well beyond the U.S. BRAIN initiative. To date, 131 individuals among faculty, students, and postdocs
+    contributed to the development of the standard and the article describing BIDS has been cited 277 times.
+
+    Current gaps exist in developing BIDS to effectively support the process of scientific results generation. This is because
+    the standard does not yet describe brain features that can be extracted from MRI data and that are routinely used
+    to perform statistical tests and complete scientific studies. These features comprise connectivity maps, structural
+    and functional connections, major white matter tracts, diffusion signal models as well as white matter tractograms
+    and tractometry. Sharing processed data and features in addition to raw and minimally-processed data is critical
+    to accelerating scientific discovery. This is because substantial effort, software, and hardware instrumentation,
+    and know-how are required to bring raw data to a usable state. One previous project (R24 MH114705) laid the foundations
+    for the BIDS derivatives standard, ultimately leading to the existing Common Derivatives standard. However, the
+    current BIDS derivative standard does not cover advanced data derivatives that describe brain connectivity experiments.
+
+    The aim of this project is to advance the BIDS standard beyond preprocessed data to describe data products generated
+    from experiments and models fit after preprocessing. The project will deliver a community-developed standard describing
+    brain connectivity experiments. The project is supported by the U.S. National Institutes of Health NIMH
     [R01-MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558).
-    
+
     This 3-days workshop will bring together experts in various data modalities (MEG, EEG, PET, MRI) and data-processing methods.
     The experts will lay the foundations for prototypes of [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
-    and make proposals that will be open for feedback from the wider community of neuroscientists after the workshop. 
-   
+    and make proposals that will be open for feedback from the wider community of neuroscientists after the workshop.
+
   button:
     icon: icon-smile-fill
     btnText: Read more
@@ -90,18 +89,18 @@ program:
         - title: Welcome to UT Austin & meeting structure
           time: 9:00 - 9:15
           description: Workshop introduction & overview
-          speakers: 
-            - name: Franco Pestilli   
-            - name: Peer Herholz                    
+          speakers:
+            - name: Franco Pestilli
+            - name: Peer Herholz
         - title: Breakout session I - working groups
           time: 09:15 - 10:35
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Coffee break
           time: 10:35 - 10:45
           description: Short break to get some coffee & refreshments (provided).
         - title: Breakout session II - working groups
           time: 10:45 - 12
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Progress report I - everyone
           time: 12 - 12:30
           description: Working groups will update everyone on their respective progress, questions and issues.
@@ -110,15 +109,15 @@ program:
           description: Lunch break (provided).
         - title: Breakout session III - working groups
           time: 1:45 - 3
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Coffee break
           time: 3 - 3:10
           description: Short break to get some coffee & refreshments (provided).
         - title: Breakout session IV - working groups
           time: 3:10 - 4:30
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Progress report II - everyone
-          time: 4:30 - 5          
+          time: 4:30 - 5
           description: Working groups will update everyone on their respective progress, questions and issues.
         - title: Social hour
           time: 6 - 8
@@ -132,18 +131,18 @@ program:
         - title: Day 2 welcome & Day 1 summary/recap
           time: 9:00 - 9:15
           description: Overview of workshop day 2 & summary/recap of day 1.
-          speakers: 
-            - name: Franco Pestilli    
-            - name: Peer Herholz                
+          speakers:
+            - name: Franco Pestilli
+            - name: Peer Herholz
         - title: Breakout session V - working groups
           time: 09:15 - 10:35
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Coffee break
           time: 10:35 - 10:45
           description: Short break to get some coffee & refreshments (provided).
         - title: Breakout session VI - working groups
           time: 10:45 - 12
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Progress report III - everyone
           time: 12 - 12:30
           description: Working groups will update everyone on their respective progress, questions and issues.
@@ -152,15 +151,15 @@ program:
           description: Lunch break (provided).
         - title: Breakout session VII - working groups
           time: 1:45 - 3
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Coffee break
           time: 3 - 3:10
           description: Short break to get some coffee & refreshments (provided).
         - title: Breakout session VIII - working groups
           time: 3:10 - 4:30
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Progress report III - everyone
-          time: 4:30 - 5          
+          time: 4:30 - 5
           description: Working groups will update everyone on their respective progress, questions and issues.
         - title: Group dinner
           time: 6 - 8
@@ -174,18 +173,18 @@ program:
         - title: Day 2 welcome & Day 1 summary/recap
           time: 9:00 - 9:15
           description: Overview of workshop day 2 & summary/recap of day 1.
-          speakers: 
-            - name: Franco Pestilli 
-            - name: Peer Herholz                     
+          speakers:
+            - name: Franco Pestilli
+            - name: Peer Herholz
         - title: Breakout session V - working groups
           time: 09:15 - 10:35
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Coffee break
           time: 10:35 - 10:45
           description: Short break to get some coffee & refreshments (provided).
         - title: Breakout session VI - working groups
           time: 10:45 - 12
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Progress report III - everyone
           time: 12 - 12:30
           description: Working groups will update everyone on their respective progress, questions and issues.
@@ -194,15 +193,15 @@ program:
           description: Lunch break (provided).
         - title: Breakout session VII - working groups
           time: 1:45 - 3
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Coffee break
           time: 3 - 3:10
           description: Short break to get some coffee & refreshments (provided).
         - title: Breakout session VIII - working groups
           time: 3:10 - 4:30
-          description: Working groups will work on their respective BEPs & tasks. 
+          description: Working groups will work on their respective BEPs & tasks.
         - title: Progress report III - everyone
-          time: 4:30 - 5          
+          time: 4:30 - 5
           description: Working groups will update everyone on their respective progress, questions and issues.
         - title: Social hour
           time: 6 - 8
@@ -222,11 +221,11 @@ registration:
 
   title: Registration
   content: |
-    This workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558) 
-    from the NIH which requires to develop prototypes of the BIDS connectivity standards during the workshop. 
-    Workshop participants are asked to commit their time to develop a BIDS connectivity standard during the workshop and to continue 
+    This workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558)
+    from the NIH which requires to develop prototypes of the BIDS connectivity standards during the workshop.
+    Workshop participants are asked to commit their time to develop a BIDS connectivity standard during the workshop and to continue
     developing the standard in the 2 years after the workshop by integrating a wider community feedback and developing an complete
-    standard speciication with example software for testing. If you are an expert in Connectivity data and  interested in 
+    standard speciication with example software for testing. If you are an expert in Connectivity data and  interested in
     participaitng in the workshop please email email [Franco Pestilli](pestilli@utexas.edu).
 
   button:
