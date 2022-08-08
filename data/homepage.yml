@@ -232,7 +232,7 @@ registration:
   button:
     icon: "icon-mail-fill"
     btnText: Registration
-    URL: [email: Franco Pestilli](pestilli@utexas.edu)
+    URL: mailto:pestilli@utexas.edu?subject=BIDS%20Workshop%20Registration
 
 
 contact:
