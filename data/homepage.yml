@@ -33,37 +33,31 @@ overview:
 
   title: Overview
   content: |
-    The Brain Imaging Data Structure (BIDS) is a BRAIN initiative (R24 MH114705) community-driven standard
-    meant to maximize neuroimaging data sharing, and facilitate analysis tool development. We propose to
-    extend the standard to encompass derivatives resulting from experiments related to both functional as
-    well as structural magnetic resonance imaging data that describe macroscopic brain connectivity estimates.
-    The focus of this proposal is to advance BIDS to describe the entire experimental workflow—from minimally
-    processed anatomical, functional and diffusion MRI data through connectivity matrices and tractometry features—in
-    service of supporting BRAIN initiative studies of large-scale connectivity of human and nonhuman brains.
+    The Brain Imaging Data Structure (BIDS) is community-driven standard meant to maximize neuroimaging 
+    data sharing, and facilitate analysis tool development. Over the past year the standard grew tremendously. 
     BIDS was initially scoped to MRI data of the brain, but the standard has set up a solid infrastructure to
     steer the community and has been extended to cover a range of other modalities (PET, EEG, MEG, ECoG). Since
     its first announcement, BIDS has evolved to become an organized community with shared governance and a strong
     impact well beyond the U.S. BRAIN initiative. To date, 131 individuals among faculty, students, and postdocs
     contributed to the development of the standard and the article describing BIDS has been cited 277 times.
-
-    Current gaps exist in developing BIDS to effectively support the process of scientific results generation. This is because
-    the standard does not yet describe brain features that can be extracted from MRI data and that are routinely used
-    to perform statistical tests and complete scientific studies. These features comprise connectivity maps, structural
+    
+    Besides the success, expansion, and description ofmultiple data modalities, gaps still exist in developing the 
+    standard to effectively support the process of scientific results reporting. This is because the standard does not 
+    yet describe advanced brain features that can be derived from all these data and that are routinely used to perform statistical analysis 
+    and complete scientific studies. These brain features comprise connectivity maps, structural
     and functional connections, major white matter tracts, diffusion signal models as well as white matter tractograms
     and tractometry. Sharing processed data and features in addition to raw and minimally-processed data is critical
     to accelerating scientific discovery. This is because substantial effort, software, and hardware instrumentation,
-    and know-how are required to bring raw data to a usable state. One previous project (R24 MH114705) laid the foundations
-    for the BIDS derivatives standard, ultimately leading to the existing Common Derivatives standard. However, the
-    current BIDS derivative standard does not cover advanced data derivatives that describe brain connectivity experiments.
+    and know-how are required to bring raw data to a usable state. 
 
-    The aim of this project is to advance the BIDS standard beyond preprocessed data to describe data products generated
-    from experiments and models fit after preprocessing. The project will deliver a community-developed standard describing
-    brain connectivity experiments. The project is supported by the U.S. National Institutes of Health NIMH
+    The aim of the present project is to extend the BIDS standard to encompass derivatives resulting from experiments 
+    related to macroscopic brain connectivity. The project is supported by the U.S. National Institutes of Health NIMH
     [R01-MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558).
 
-    This 3-days workshop will bring together experts in various data modalities (MEG, EEG, PET, MRI) and data-processing methods.
-    The experts will lay the foundations for prototypes of [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
-    and make proposals that will be open for feedback from the wider community of neuroscientists after the workshop.
+    This 3-days workshop will bring together experts in various data modalities (MEG, EEG, PET, MRI, ECoG) and data-processing methods.
+    The experts will lay the foundations for prototypes of 
+    [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
+    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop.
 
   button:
     icon: icon-smile-fill
