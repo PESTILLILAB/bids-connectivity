@@ -57,8 +57,14 @@ overview:
     This 3-days workshop will bring together experts in various data modalities (MEG, EEG, PET, MRI, ECoG) and data-processing methods.
     The experts will lay the foundations for prototypes of 
     [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
-    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop. In order to allow both 
-    workshop attendees as well as the wider community to follow the workshop and provide feedback during and after, [this document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created.
+    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop. Specifically, the project and thus workshop will focus on 5 BEPs:   
+    - [Diffusion Weighted Imaging derivatives](https://docs.google.com/document/d/1cQYBvToU7tUEtWMLMwXUCB_T8gebCotE1OczUpMYW60/comment)  
+    - [advanced Diffusion Weighted Imaging derivatives](https://docs.google.com/document/d/1ubDQ2RhgjnfGqoeukzEkPV9YEHhfYMERrj7-3b0c2HI/comment)  
+    - [Dimensionality reduction-based Networks](https://docs.google.com/document/d/1GTWsj0MFQedXjOaNk6H0or6IDVFyMAysrJ9I4Zmpz2E/comment)  
+    - [Connectivity matrix data schema](https://docs.google.com/document/d/1ugBdUF6dhElXdj3u9vw0iWjE6f_Bibsro3ah7sRV0GA/comment)  
+    - [Atlas specification](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/comment)  
+    
+    In order to allow both workshop attendees as well as the wider community to follow the workshop and provide feedback during and after, [this document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created.
     It provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
 
   button:
@@ -84,11 +90,11 @@ program:
           time: 8:00 - 8:30
         - title: Welcome to UT Austin & meeting structure
           time: 8:30 - 9:15
-          description: Workshop introduction & overview
+          description: Workshop [introduction & overview](https://docs.google.com/presentation/d/19OUvCc0_MWUcClqXBnlwsz5Zr8y2_RkFbXax31qUV6s/preview?usp=sharing), [approach](https://docs.google.com/presentation/d/16SM1UY3EO0HU8iublmtGFaPSwizbeTxHPvPwFM3yPCU/preview?usp=sharing)
           speakers:
-            - name: Franco Pestilli - [workshop & project overview](https://docs.google.com/presentation/d/19OUvCc0_MWUcClqXBnlwsz5Zr8y2_RkFbXax31qUV6s/preview?usp=sharing)
+            - name: Franco Pestilli 
             - name: Russ Poldrack
-            - name: Peer Herholz - [workshop approach](https://docs.google.com/presentation/d/16SM1UY3EO0HU8iublmtGFaPSwizbeTxHPvPwFM3yPCU/preview?usp=sharing)
+            - name: Peer Herholz 
         - title: Breakout session I - working groups
           time: 09:15 - 10:35
           description: Working groups will work on their respective BEPs & tasks.
