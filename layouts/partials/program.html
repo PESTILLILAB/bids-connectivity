@@ -26,7 +26,7 @@
               </td>
               <td class="speakers">
                 {{ range $author := $item.speakers }}
-                  <span>{{ $author.name }}</span>
+                  <span>{{ $author.name | markdownify }}</span>
                 {{ end }}
               </td>
             </tr>
