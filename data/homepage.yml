@@ -6,7 +6,7 @@ showcase:
 
   title: BIDS Connectivity Workshop
   subtitle: Developing a practical standard to report brain connectivity experiments.
-  description: September 12th - 14th, at the University of Texas at Austin
+  description: September 12th - 14th 2022, at the University of Texas at Austin
   image:
     x: img/showcase/people@2x.png
     _2x: img/showcase/people@2x.png
@@ -41,7 +41,7 @@ overview:
     impact well beyond the U.S. BRAIN initiative. To date, 131 individuals among faculty, students, and postdocs
     contributed to the development of the standard and the article describing BIDS has been cited 277 times.
     
-    Besides the success, expansion, and description ofmultiple data modalities, gaps still exist in developing the 
+    Besides the success, expansion, and description of multiple data modalities, gaps still exist in developing the 
     standard to effectively support the process of scientific results reporting. This is because the standard does not 
     yet describe advanced brain features that can be derived from all these data and that are routinely used to perform statistical analysis 
     and complete scientific studies. These brain features comprise connectivity maps, structural
@@ -57,7 +57,9 @@ overview:
     This 3-days workshop will bring together experts in various data modalities (MEG, EEG, PET, MRI, ECoG) and data-processing methods.
     The experts will lay the foundations for prototypes of 
     [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
-    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop.
+    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop. In order to allow both 
+    workshop attendees as well as the wider community to follow the workshop and provide feedback during and after, [this document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created.
+    It provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
 
   button:
     icon: icon-smile-fill
@@ -84,9 +86,9 @@ program:
           time: 8:30 - 9:15
           description: Workshop introduction & overview
           speakers:
-            - name: Franco Pestilli
+            - name: Franco Pestilli - [workshop & project overview](https://docs.google.com/presentation/d/19OUvCc0_MWUcClqXBnlwsz5Zr8y2_RkFbXax31qUV6s/preview?usp=sharing)
             - name: Russ Poldrack
-            - name: Peer Herholz
+            - name: Peer Herholz - [workshop approach](https://docs.google.com/presentation/d/16SM1UY3EO0HU8iublmtGFaPSwizbeTxHPvPwFM3yPCU/preview?usp=sharing)
         - title: Breakout session I - working groups
           time: 09:15 - 10:35
           description: Working groups will work on their respective BEPs & tasks.
@@ -202,14 +204,6 @@ program:
           time: 6 - 8
           description: Social get together at (at own expense).
 
-information:
-  enable: true
-
-  title: Information
-  content: |
-    ACNN does not provide accommodations for attendees of the Annual Meeting.
-    If you are seeking a hotel within walking distance of the venue, we recommend checking out the Moxy Hotel Austin.
-
 
 registration:
   enable: true
@@ -220,8 +214,8 @@ registration:
     from the NIH which requires to develop prototypes of the BIDS connectivity standards during the workshop.
     Workshop participants are asked to commit their time to develop a BIDS connectivity standard during the workshop and to continue
     developing the standard in the 2 years after the workshop by integrating a wider community feedback and developing an complete
-    standard speciication with example software for testing. If you are an expert in Connectivity data and  interested in
-    participaitng in the workshop please email email [Franco Pestilli](pestilli@utexas.edu).
+    standard specification with example software for testing. If you are an expert in Connectivity data and  interested in
+    participating in the workshop please email email [Franco Pestilli](pestilli@utexas.edu).
 
   button:
     icon: "icon-mail-fill"
