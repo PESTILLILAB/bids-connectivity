@@ -30,6 +30,11 @@ theme = "raditian-free-hugo-theme"
   URL = "#overview"
   weight = 2
 
+ [[menu.header]]
+  name = "Workshops"
+  URL = "#workshops"
+  weight = 2
+
   [[menu.header]]
   name = "Program"
   URL = "#program"
@@ -69,7 +74,7 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "overview", "program", "information", "registration", "contact"]
+  sections = ["showcase", "overview", "workshops" "program", "information", "registration", "contact"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
