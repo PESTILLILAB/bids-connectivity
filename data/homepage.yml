@@ -63,7 +63,7 @@ overview:
     _2x: img/overview/bids-brain@2x.png
     mobile: img/overview/bids-brain-mobile.png
 
-Workshops:
+workshops:
   enable: true
     content: |
       The 2022 BIDS Connectivity Workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558)
@@ -224,7 +224,7 @@ program:
 registration:
   enable: true
 
-  title: Perticipation
+  title: Participation
   content: |
     The 2022 BIDS Connectivity Workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558)
     from the NIH which requires to develop prototypes of the BIDS connectivity standards during the workshop.
@@ -234,9 +234,8 @@ registration:
 
   button:
     icon: "icon-mail-fill"
-    btnText: Participation
+    btnText: Participate
     URL: mailto:pestilli@utexas.edu?subject=BIDS%20Workshop%20Registration
-
 
 contact:
   enable: true
