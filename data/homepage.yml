@@ -63,26 +63,6 @@ overview:
     _2x: img/overview/bids-brain@2x.png
     mobile: img/overview/bids-brain-mobile.png
 
-workshops:
-  enable: true
-
-  title: The 2022 BIDS Connectivity Workshop
-  content: |
-    The 2022 BIDS Connectivity Workshop is a 3-days meeting that brings together experts in various data modalities (MEG, EEG, PET, MRI, ECoG) and data-processing methods.
-    The experts will lay the foundations for prototypes of 
-    [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
-    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop. Specifically, the project and thus workshop will focus on 5 BEPs:   
-    - [Diffusion Weighted Imaging derivatives](https://docs.google.com/document/d/1cQYBvToU7tUEtWMLMwXUCB_T8gebCotE1OczUpMYW60/comment)  
-    - [advanced Diffusion Weighted Imaging derivatives](https://docs.google.com/document/d/1ubDQ2RhgjnfGqoeukzEkPV9YEHhfYMERrj7-3b0c2HI/comment)  
-    - [Dimensionality reduction-based Networks](https://docs.google.com/document/d/1GTWsj0MFQedXjOaNk6H0or6IDVFyMAysrJ9I4Zmpz2E/comment)  
-    - [Connectivity matrix data schema](https://docs.google.com/document/d/1ugBdUF6dhElXdj3u9vw0iWjE6f_Bibsro3ah7sRV0GA/comment)  
-    - [Atlas specification](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/comment)  
-    
-    [A document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created
-    to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities. 
-    The document provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
-
-
 program:
   enable: true
 
@@ -220,13 +200,30 @@ program:
 registration:
   enable: true
 
-  title: Registration
+  title: The 2022 BIDS Connectivity Workshop
   content: |
-    The 2022 BIDS Connectivity workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558)
+    The 2022 BIDS Connectivity Workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558)
     from the NIH which requires to develop prototypes of the BIDS connectivity standards during the workshop.
-    Workshop participants are asked to commit their time to develop a BIDS connectivity standard during the workshop and to continue
+    
+    Workshop participants are tasked to commit their time to develop a BIDS connectivity standard during the workshop and to continue
     developing the standard in the 2 years after the workshop by integrating a wider community feedback and developing an complete
-    standard specification with example software for testing. If you are an expert in Connectivity data and  interested in
+    standard specification with example software for testing. 
+    
+    This 3-days meeting brings together experts in various data modalities (MEG, EEG, PET, MRI, ECoG) and data-processing methods.
+    The experts will lay the foundations for prototypes of 
+    [BEPs](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit)
+    and make proposals that will then be open for feedback to the wider community of neuroscientists after the workshop. Specifically, the project and thus workshop will focus on 5 BEPs:   
+    - [Diffusion Weighted Imaging derivatives](https://docs.google.com/document/d/1cQYBvToU7tUEtWMLMwXUCB_T8gebCotE1OczUpMYW60/comment)  
+    - [advanced Diffusion Weighted Imaging derivatives](https://docs.google.com/document/d/1ubDQ2RhgjnfGqoeukzEkPV9YEHhfYMERrj7-3b0c2HI/comment)  
+    - [Dimensionality reduction-based Networks](https://docs.google.com/document/d/1GTWsj0MFQedXjOaNk6H0or6IDVFyMAysrJ9I4Zmpz2E/comment)  
+    - [Connectivity matrix data schema](https://docs.google.com/document/d/1ugBdUF6dhElXdj3u9vw0iWjE6f_Bibsro3ah7sRV0GA/comment)  
+    - [Atlas specification](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/comment)  
+    
+    [A document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created
+    to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities. 
+    The document provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
+
+    If you are an expert in Connectivity data and  interested in
     participating in the workshop please email email [Franco Pestilli](pestilli@utexas.edu).
 
   button:
