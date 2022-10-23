@@ -31,7 +31,7 @@ showcase:
 overview:
   enable: true
 
-  title: Overview
+  title: Project Overview
   content: |
     The Brain Imaging Data Structure (BIDS) is community-driven standard meant to maximize neuroimaging 
     data sharing, and facilitate analysis tool development. Over the past year the standard grew tremendously. 
@@ -62,6 +62,9 @@ overview:
     x: img/overview/bids-brain.png
     _2x: img/overview/bids-brain@2x.png
     mobile: img/overview/bids-brain-mobile.png
+
+workshop:
+  enable: true
 
   title: The 2022 BIDS Connectivity Workshop
   content: |
