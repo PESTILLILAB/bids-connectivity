@@ -63,11 +63,7 @@ overview:
     _2x: img/overview/bids-brain@2x.png
     mobile: img/overview/bids-brain-mobile.png
 
-
-program:
-  enable: true
-
-  title: The 2022 BIDS COnnectivity Workshop
+  title: The 2022 BIDS Connectivity Workshop
   content: |
     The 2022 BIDS Connectivity Workshop is a 3-days meeting that brings together experts in various data modalities (MEG, EEG, PET, MRI, ECoG) and data-processing methods.
     The experts will lay the foundations for prototypes of 
@@ -82,6 +78,12 @@ program:
     [A document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created
     to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities. 
     The document provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
+
+
+program:
+  enable: true
+
+  title: 2022 Workshop Program
   
   schedule:
     - title: Day 1
