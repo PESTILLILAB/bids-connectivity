@@ -19,3 +19,9 @@ convert static/img/overview/bids-brain@2x.png -resize 500\> static/img/overview/
 convert static/img/overview/bids-brain@2x.png -resize 1000\> static/img/overview/bids-brain@2x.png
 convert static/img/overview/bids-brain-mobile.png -resize 800\> static/img/overview/bids-brain-mobile.png
 ```
+
+## Run Locally
+
+```bash
+hugo server -D
+```
