@@ -65,7 +65,7 @@ overview:
 
 workshops:
   enable: true
-    content: |
+  content: |
       The 2022 BIDS Connectivity Workshop is sponsored by [Award R01 MH126699](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558)
       from the NIH which requires to develop prototypes of the BIDS connectivity standards during the workshop.
        
@@ -82,10 +82,10 @@ workshops:
        - [Dimensionality reduction-based Networks](https://docs.google.com/document/d/1GTWsj0MFQedXjOaNk6H0or6IDVFyMAysrJ9I4Zmpz2E/comment)  
        - [Connectivity matrix data schema](https://docs.google.com/document/d/1ugBdUF6dhElXdj3u9vw0iWjE6f_Bibsro3ah7sRV0GA/comment)  
        - [Atlas specification](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/comment)  
-      
-     [A document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created
-     to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities. 
-     The document provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
+
+      [A document](https://docs.google.com/document/d/1Wz5tkKK63P85luDr-nDsuSTEdUG6xxfLXcTGO1UFuNk/edit?usp=sharing) was created
+      to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities. 
+      The document provides a comprehensive resource for all project and workshop related activities, links to further documents and additional information.
   
 program:
   enable: true
