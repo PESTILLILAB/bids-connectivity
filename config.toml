@@ -27,28 +27,33 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Overview"
-  URL = "#overview"
+  URL = "/overview"
   weight = 2
 
   [[menu.header]]
+  name = "Scope & Approach"
+  URL = "/scope_approach"
+  weight = 3  
+
+  [[menu.header]]
   name = "Workshops"
-  URL = "#workshops"
-  weight = 3
+  URL = "/workshops"
+  weight = 4
 
   [[menu.header]]
   name = "Contact"
-  URL = "#contact"
-  weight = 4
+  URL = "/contact"
+  weight = 5
 
 
   [[menu.footer]]
   name = "Overview"
-  URL = "#overview"
+  URL = "/overview"
   weight = 2
 
   [[menu.footer]]
   name = "Workshops"
-  URL = "#workshops"
+  URL = "/workshops"
   weight = 3
 
   [[menu.footer]]
@@ -61,8 +66,6 @@ theme = "raditian-free-hugo-theme"
 [params]
 
   title = "BIDS Connectivity BEPs"
-
-  sections = ["overview", "workshops", "contact"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
