@@ -9,9 +9,8 @@ main:
   partial: t-text_image
   title: "BIDS Connectivity Extension(s)"
   subtitle: "Developing a practical standard to report brain connectivity experiments."
-  content: '
+  content: >
     An [NIH BRAIN Initiative](https://reporter.nih.gov/search/wY9-gfr9wkuqjnR-lFfGwA/project-details/10253558) sponsored project to advance data sharing and informatics
-    '
   image: "img/logo.svg"
   size: 6
 

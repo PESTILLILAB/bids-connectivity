@@ -7,9 +7,7 @@
     <div class="col-12 order-last col-md-{{ $Col }} my-auto order-md-first text-center">
       <img
         class="lozad img-responsive"
-        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-        data-src="{{ $Data.image | absURL }}"
-        data-srcset="{{ $Data.image | absURL }} 1x"
+        src="{{ $Data.image | absURL }}"
         alt="{{ $Data.title }}"
       />
     </div>
@@ -24,7 +22,7 @@
       {{ end }}
       {{ if $Data.content }}
       <p>
-        {{ $Data.content | safeHTML }}
+        {{ $Data.content | markdownify }}
       </p>
       {{ end }}
 
