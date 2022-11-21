@@ -18,7 +18,7 @@ scope:
         - [Dimensionality reduction-based Networks](https://docs.google.com/document/d/1GTWsj0MFQedXjOaNk6H0or6IDVFyMAysrJ9I4Zmpz2E/comment)  
         - [Connectivity matrix data schema](https://docs.google.com/document/d/1ugBdUF6dhElXdj3u9vw0iWjE6f_Bibsro3ah7sRV0GA/comment)  
         - [Atlas specification](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/comment)
-  image: "img/bids_bep_dev.png"
+  image: "img/BIDS_connectivity_BEPs.svg"
   size: 6
 
 working_groups:
@@ -26,8 +26,8 @@ working_groups:
   partial: t-image_text
   title: "Expert working groups"
   content: >
-    To enable an open & community-driven effort that is also holistic, as well as incorporates fine-grained details and the bigger picture, the entire BIDS connectivity extension(s) project was divided into smaller subtasks that comprise the aforementioned BEPs & respective expert working groups. In more detail, the above shown BEP development workflow was adapted to incorporate expert working groups for each BEP and be centered around two dedicated multi-day workshops (link to workshop section here). After an initial recruitment of a diverse team of experts spanning a broad range of modality and methods-specific, as well as BIDS-related experience, a short assessment was used to assign experts to one or multiple BEP-related working groups.
-  image: "img/bids_conn_wg.png"
+    To enable an open & community-driven effort that is also holistic, as well as incorporates fine-grained details and the bigger picture, the entire BIDS connectivity extension(s) project was divided into smaller subtasks that comprise the aforementioned BEPs & respective expert working groups. In more detail, the successful [BEP development workflow](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit) was adapted to incorporate expert working groups for each BEP and be centered around [two dedicated multi-day workshops](https://pestillilab.github.io/bids-workshop/workshops). After an initial recruitment of a diverse team of experts spanning a broad range of modality and methods-specific, as well as BIDS-related experience, a short assessment was used to assign experts to one or multiple BEP-related working groups.
+  image: "img/BIDS_working_groups.svg"
   size: 6
 
 approach:
@@ -35,8 +35,8 @@ approach:
   partial: t-text_image
   title: "An open & community-driven approach"
   content: >
-    These working groups started their work on corresponding BIDS connectivity BEP prototypes during the first of two workshops, held in September 2022 at UT Austin (add workshop link here) and continuously further develop these extensions. Importantly, all of this work is performed openly via Google Docs following the BIDS BEP development workflow to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities throughout its entire duration.
-  image: "img/bids_conn_com.png"
+    These working groups started their work on corresponding BIDS connectivity BEP prototypes during the first of two workshops, held in [September 2022 at UT Austin](https://pestillilab.github.io/bids-workshop/workshops) and continuously further develop these extensions. Importantly, all of this work is performed openly via Google Docs following the [BIDS BEP development workflow](https://docs.google.com/document/d/1pWmEEY-1-WuwBPNy5tDAxVJYQ9Een4hZJM06tQZg8X4/edit) to allow both workshop attendees and the wider community to interact with the BIDS Connectivity Project activities throughout its entire duration.
+  image: "img/BIDS_BEP_development.svg"
   size: 6
 
 ---
