@@ -27,54 +27,45 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Overview"
-  URL = "#overview"
+  URL = "/overview"
   weight = 2
 
- [[menu.header]]
+  [[menu.header]]
+  name = "Scope & Approach"
+  URL = "/scope_approach"
+  weight = 3  
+
+  [[menu.header]]
   name = "Workshops"
-  URL = "#workshops"
-  weight = 2
-
-  [[menu.header]]
-  name = "Program"
-  URL = "#program"
-  weight = 3
-
-  [[menu.header]]
-  name = "Information"
-  URL = "#information"
+  URL = "/workshops"
   weight = 4
 
   [[menu.header]]
-  name = "Participation"
-  URL = "#participate"
-  weight = 5
-
-  [[menu.header]]
   name = "Contact"
-  URL = "#contact"
-  weight = 6
+  URL = "/contact"
+  weight = 5
 
 
   [[menu.footer]]
   name = "Overview"
-  URL = "#overview"
+  URL = "/overview"
   weight = 2
 
   [[menu.footer]]
-  name = "Program"
-  URL = "#program"
+  name = "Workshops"
+  URL = "/workshops"
   weight = 3
 
   [[menu.footer]]
-  name = "Participate"
-  URL = "#participate"
+  name = "Contact"
+  URL = "#contact"
   weight = 4
+
 
 
 [params]
 
-  sections = ["showcase", "overview", "workshops", "program", "information", "participation", "contact"]
+  title = "BIDS Connectivity BEPs"
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
@@ -87,3 +78,6 @@ theme = "raditian-free-hugo-theme"
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
         alt = "Design & Code - Radity"
+      [params.footer.logo]
+        img = "img/logo.svg"
+        alt = "BIDS Connectivity BEPs logo"
