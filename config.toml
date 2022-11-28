@@ -52,14 +52,19 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.footer]]
+  name = "Scope & Approach"
+  URL = "/scope_approach"
+  weight = 3
+
+  [[menu.footer]]
   name = "Workshops"
   URL = "/workshops"
-  weight = 3
+  weight = 4
 
   [[menu.footer]]
   name = "Contact"
   URL = "#contact"
-  weight = 4
+  weight = 5
 
 
 
