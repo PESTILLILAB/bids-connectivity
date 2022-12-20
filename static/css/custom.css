@@ -31,13 +31,12 @@
 }
 
 body .section {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 body .section:last-of-type .container {
-    flex-grow: 1;
+    min-height: 465px;
 }
 
 body .section:first-of-type {
@@ -52,17 +51,17 @@ body .section:first-of-type {
 body .section:last-of-type::before {
     content: "";
     position: absolute;
-    height: 20vh;
+    min-height: 310px;
     background: var(--palette-blue);
     width: 100%;
     bottom: 0;
 }
 
 body .section:last-of-type {
-    position: relative;
+  position: relative;
   background-image: url(../img/bullets.png);
   background-repeat: repeat-x;
-  background-position: left 0 bottom 20vh;
+  background-position: left 0 bottom 310px;
 }
 body .section:last-of-type .container {
   background: white;
@@ -79,6 +78,7 @@ body .section:last-of-type .container:last-of-type {
 }
 
 footer.footer {
+  flex-grow: 1;
   background-color: var(--palette-blue);
 }
 
