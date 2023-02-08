@@ -18,7 +18,7 @@ scope:
         - [Dimensionality reduction-based Networks](https://docs.google.com/document/d/1GTWsj0MFQedXjOaNk6H0or6IDVFyMAysrJ9I4Zmpz2E/edit?usp=sharing)  
         - [Connectivity matrix data schema](https://docs.google.com/document/d/1ugBdUF6dhElXdj3u9vw0iWjE6f_Bibsro3ah7sRV0GA/edit?usp=sharing)  
         - [Atlas specification](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/edit?usp=sharing)
-  image: "img/BIDS_connectivity_BEPs.svg"
+  image: "img/BIDS_connectivity_BEPs.png"
   size: 6
 
 working_groups:
